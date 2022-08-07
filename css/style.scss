@@ -236,6 +236,7 @@ body {
         color: #FFFFFF;
         padding: 8px 24px 9px 19px;
         margin-right: 13px;
+        cursor: pointer;
     }
     &__btn-more {
         background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
@@ -244,6 +245,7 @@ body {
         line-height: 21px;
         color: #FFFFFF;
         padding: 8px 19px 9px 19px;
+        cursor: pointer;
     }
     &__row-right-slide {
         position: absolute;
