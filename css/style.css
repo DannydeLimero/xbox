@@ -33,7 +33,7 @@ body {
   line-height: 1;
 }
 
-ol, ul, nav {
+ol, ul {
   list-style: none;
 }
 
@@ -106,21 +106,22 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.head__list {
+
+.menu__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.head__list a {
+.menu__list a {
   font-size: 16px;
   line-height: 16px;
   color: rgba(255, 255, 255, 0.5);
 }
-.head__list li:nth-child(1) {
+.menu__list li:nth-child(1) {
   position: relative;
   margin-right: 45px;
 }
-.head__list li:nth-child(1):after {
+.menu__list li:nth-child(1):after {
   content: "";
   position: absolute;
   height: 6px;
@@ -132,11 +133,11 @@ body {
   right: -14px;
   cursor: pointer;
 }
-.head__list li:nth-child(2) {
+.menu__list li:nth-child(2) {
   position: relative;
   margin-right: 47px;
 }
-.head__list li:nth-child(2):after {
+.menu__list li:nth-child(2):after {
   content: "";
   position: absolute;
   height: 6px;
@@ -148,15 +149,15 @@ body {
   right: -14px;
   cursor: pointer;
 }
-.head__list li:nth-child(3) {
+.menu__list li:nth-child(3) {
   margin-right: 37px;
 }
-.head__list li:nth-child(5) {
+.menu__list li:nth-child(5) {
   position: relative;
   padding-left: 54px;
   margin-right: 18px;
 }
-.head__list li:nth-child(5)::before {
+.menu__list li:nth-child(5)::before {
   content: "";
   position: absolute;
   background-image: url(../img/Shape.png);
@@ -166,7 +167,7 @@ body {
   right: 80px;
   cursor: pointer;
 }
-.head__list li:nth-child(5):after {
+.menu__list li:nth-child(5):after {
   content: "";
   position: absolute;
   height: 6px;
@@ -178,7 +179,7 @@ body {
   right: -14px;
   cursor: pointer;
 }
-.head__list input {
+.menu__list input {
   width: 209.8px;
   height: 38px;
   margin: 11px 0;

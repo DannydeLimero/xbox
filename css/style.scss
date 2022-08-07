@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul, nav {
+ol, ul {
 	list-style: none;
 }
 blockquote, q {
@@ -102,7 +102,9 @@ body {
         justify-content: space-between;
         align-items: center;
     }
+}
 
+.menu {
     &__list {
         display: flex;
         justify-content: space-between;
