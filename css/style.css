@@ -505,7 +505,7 @@ a.list-title {
 .footer__list-social {
   display: flex;
 }
-.footer__list li:not(:last-child) {
+.footer__list li {
   margin-bottom: 29px;
 }
 .footer__list-title {

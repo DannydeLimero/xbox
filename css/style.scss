@@ -513,7 +513,7 @@ a.list-title {
             display: flex;
         }
         
-        & li:not(:last-child) {
+        & li {
             margin-bottom: 29px;
         }
     }
