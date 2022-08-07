@@ -100,7 +100,6 @@ body {
 
 .head {
   background-color: #373A3C;
-  border-radius: 4px;
 }
 .head__row {
   display: flex;

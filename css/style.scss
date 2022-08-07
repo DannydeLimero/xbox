@@ -96,8 +96,6 @@ body {
 
 .head {
     background-color: #373A3C;
-    border-radius: 4px;
-
     &__row {
         display: flex;
         justify-content: space-between;
@@ -198,7 +196,6 @@ body {
         flex-direction: column;
         align-items: flex-end;
     }
-
     &__row-left-slide {
         position: absolute;
         background-color: transparent;
@@ -211,7 +208,6 @@ body {
         top: 50%;
         cursor: pointer;
     }
-
     &__content {
         padding: 206px 0 147px 0;
         margin-right: 100px;
@@ -227,13 +223,11 @@ body {
             margin-bottom: 134px;
         }
     }
-
     &__btn {
         display: flex;
         flex: 0 1 100%;
         align-items: flex-end;
     }
-
     &__btn-trailer {
         background-color: #8DD83D;
         border-radius: 4px;
@@ -243,7 +237,6 @@ body {
         padding: 8px 24px 9px 19px;
         margin-right: 13px;
     }
-
     &__btn-more {
         background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
         border-radius: 4px;
@@ -252,7 +245,6 @@ body {
         color: #FFFFFF;
         padding: 8px 19px 9px 19px;
     }
-
     &__row-right-slide {
         position: absolute;
         background-color: transparent;
@@ -266,7 +258,6 @@ body {
         right: -152px;
         top: 50%;
     }
-
     &__indicators {
         display: flex;
         align-items: center;
@@ -302,7 +293,6 @@ body {
         align-items: center;
         padding: 64px 0 162px 0;
     }
-
     &__txt {
         text-align: center;
         margin: 0 0 43px 0;
@@ -320,12 +310,10 @@ body {
             color: #FFFFFF;
         }
     }
-
     &__row {
         display: flex;
         padding: 0 -30px;
     }
-
     &__row-box {
         display: flex;
         flex-direction: column;
@@ -408,13 +396,11 @@ body {
         cursor: pointer;
         margin-top: 74px;
     }
-
     &__row {
         display: flex;
         justify-content: space-between;
         padding: 0 -8px;
     }
-
     &__row-box {
         display: flex;
         flex-direction: column;
@@ -424,7 +410,6 @@ body {
         border-radius: 4px;
         margin: 0 8px;
         padding-bottom: 27px;
-
         & img {
             margin-bottom: 22px;
         }
@@ -515,13 +500,11 @@ a.list-title {
         padding: 58px 0 49px 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.35);
     }
-
     &__box {
         & a {
             flex: 1 1 auto;
         }
     }
-
     &__list {
 
         &-social {
